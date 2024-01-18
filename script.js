@@ -11,5 +11,5 @@ calculateButton.addEventListener('click', () => {
 
   const totalInterestPayable = Math.round(emi * months.value - amount.value);
 
-  document.getElementById('display').innerHTML = `<hr><p>your total emi is: ${emi}</p> <p>your total interset payable is: ${totalInterestPayable}</p><p>your total amount payable is: ${emi * months.value}</p>`;
+  document.getElementById('display').innerHTML = `<hr><p>monthly emi is: ${emi}</p> <p>total interset payable is: ${totalInterestPayable}</p><p>total amount payable is: ${emi * months.value}</p>`;
 });
